@@ -2,6 +2,7 @@
 # Caching (Cache)
 
 ```mermaid
+
 flowchart TD
 app[Application]
 cach[Memcached]
@@ -11,7 +12,9 @@ app --"Store data in cache (set)"--> cach
 cach --"Get data from cache (get)"--> app
 db -.-> app
 
+
 ```
+
 1. Common caching services:
    - [Redis](https://redis.io/)
    - [Casandra](https://cassandra.apache.org/_/index.html)
